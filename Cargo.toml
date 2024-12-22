@@ -1,0 +1,16 @@
+[package]
+name = "async-actor"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/AmitPr/async-actor"
+description = "A simple actor framework for Rust"
+license = "MIT"
+
+[dependencies]
+async-channel = "2.3.1"
+async-oneshot-channel = "0.1.8"
+either = "1"
+pin-project-lite = "0.2"
+
+[dev-dependencies]
+tokio = { version = "1.41.1", features = ["full"] }
